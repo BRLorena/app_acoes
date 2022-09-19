@@ -1,5 +1,5 @@
 import ormar
-from config import database, metadata
+from app.config.config import database, metadata
 
 
 class Papel(ormar.Model):

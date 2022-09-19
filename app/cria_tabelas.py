@@ -1,8 +1,7 @@
 import sqlalchemy
-from sqlalchemy import engine
-
-from config import DATABASE_URL, metadata
 from models.papel import Papel
+
+from config.config import DATABASE_URL, metadata
 
 
 def config_banco(database = DATABASE_URL):
